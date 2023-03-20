@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Weather Information Panel</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+  <script src="script.js" defer></script>
+</head>
+<body>
+<header>
+  <h1>Carrot Weather</h1>
+  <div id="home"><a href="#">Home</a></div>
+</header>
+
+<main>
+  <div id="search-container">
+    <input type="text" id="search" placeholder="Search city...">
+    <button id="search-button">Search</button>
+  </div>
+  <div id="units">
+    <select name="units" id="unit-select">
+      <option value="metric">Metric</option>
+      <option value="imperial">Imperial</option>
+    </select>
+  </div>
+  <div id="weather-container">
+    <div class="search-result">
+      <button id="back-button">Back</button>
+      <!-- Search result cards will be added here -->
+    </div>
+    <!-- Weather cards will be added here -->
+  </div>
+</main>
+<footer>
+  <p>Carrot Weather</p>
+</footer>
+</body>
+</html>
